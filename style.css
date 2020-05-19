@@ -2,16 +2,15 @@ body{
     color: black;
     background:linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(https://images.unsplash.com/photo-1529257414772-1960b7bea4eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) center no-repeat;
     background-size: cover;
-    opacity:0.8;
 }
 .mytext{
-    border:0;padding:10px;background:darkorange;
+    border:0;padding:10px;background:white;
 }
 .text{
     width:75%;display:flex;flex-direction:column;
 }
 .text > p:first-of-type{
-    font-family: 'lato';
+    font-family: 'lato', Verdana, Geneva, Tahoma, sans-serif;
     width:100%;margin-top:0;margin-bottom:auto;line-height: 30px;font-size: 25px;
 }
 .text > p:last-of-type{
@@ -35,22 +34,25 @@ body{
     margin-top:5px;width:85%;border-radius:5px;padding:5px;display:flex;
 }
 .msj-rta{
-    float:right;background:darkorange;
+    float:right;background:white;
 }
 .msj{
     float:left;background:white;
 }
 .frame{
-    background:#e0dfde;
+    background:rgba(255, 140, 0, 0.219);
     height:600px;
     overflow:hidden;
     padding:0;
+    opacity:1;
+    border-radius:5px;
+    
 }
 .frame > div:last-of-type{
     position:absolute;bottom:0;width:100%;display:flex;
 }
 body > div > div > div:nth-child(2) > span{
-    background: darkorange;padding: 10px;font-size: 21px;border-radius: 50%;
+    background:darkorange;padding: 10px;font-size: 21px;border-radius: 50%;
 }
 body > div > div > div.msj-rta.macro{
     margin:auto;margin-left:1%;
@@ -86,7 +88,7 @@ ul {
     position:relative;
     border-style: solid;
     border-width: 13px 13px 0 0;
-    border-color: darkorange transparent transparent transparent;           
+    border-color: white transparent transparent transparent;           
 }  
 input:focus{
     outline: none;
@@ -103,3 +105,17 @@ input:focus{
 :-moz-placeholder { /* Firefox 18- */
     color: #d4d4d4;
 }  
+
+h1{
+    color: white;
+    font-family: 'lato', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    text-transform: uppercase;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    margin-bottom:5px;
+}
