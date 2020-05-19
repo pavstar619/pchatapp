@@ -1,2 +1,2 @@
-# pchatapp
- Chat app made with javascript and bootstrap
+# chatapp
+ Chatapp made with bootstrap and jquery
