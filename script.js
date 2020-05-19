@@ -82,7 +82,7 @@ $('body > div > div > div:nth-child(2) > span').click(function(){
 
 //-- Clear Chat
 resetChat();
-insertChat("me", "Hi,Press Shift for user1 and Enter for user2",300);
+insertChat("me", "Hi,type something and press Shift to chat as User1 or Enter to chat as User2",300);
 
 //-- Print Messages
 /* insertChat("you", "Hello I would like to know more about your legal services", 0);  
