@@ -1,8 +1,8 @@
 var me = {};
-me.avatar = "https://lh6.googleusercontent.com/-lr2nyjhhjXw/AAAAAAAAAAI/AAAAAAAARmE/MdtfUmC0M4s/photo.jpg?sz=48";
+me.avatar = "pic1.jpg";
 
 var you = {};
-you.avatar = "https://a11.t26.net/taringa/avatares/9/1/2/F/7/8/Demon_King1/48x48_5C5.jpg";
+you.avatar = "pic2.jpg";
 
 function formatAMPM(date) {
     var hours = date.getHours();
@@ -27,7 +27,7 @@ function insertChat(who, text, time){
         control = '<li style="width:100%">' +
                         '<div class="msj macro">' +
                         '<div class="avatar"><img class="img-circle" style="width:100%;" src="'+ me.avatar +'" /></div>' +
-                            '<div class="text text-l">' +
+                            '<div class="text1 text1-l">' +
                                 '<p>'+ text +'</p>' +
                                 '<p><small>'+date+'</small></p>' +
                             '</div>' +
@@ -56,9 +56,9 @@ function resetChat(){
 
 $(".mytext").on("keydown", function(e){
     if (e.which == 13){
-        var text = $(this).val();
-        if (text !== ""){
-            insertChat("me", text);              
+        var text1 = $(this).val();
+        if (text1 !== ""){
+            insertChat("me", text1);              
             $(this).val('');
         }
     }
